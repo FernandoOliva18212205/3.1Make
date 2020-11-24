@@ -1,11 +1,11 @@
-# POR:
-# No. Control: 
+# POR: Leal Oliva Carlos Fernando
+# No. Control: 18212205
 # Archivo Makefile: Codigo que compila un programa definido.
-# Fecha: ____
+# Fecha: 24//11/2020
 # Materia: Lenguajez de interfaz.
 
 # Makefile
-all: programa
+all: teclado
 programa: teclado.o  # enlazarlo para correrlo
 	ld -o $@ $+
 programa.o: teclado.s # compilarlo nos genera el .o
